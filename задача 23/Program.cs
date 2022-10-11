@@ -7,14 +7,14 @@
 5 -> 1, 8, 27, 64, 125
 */
 
-void GetNumb (int number)
+void GetNumb(int number)
 {
-Console.Write ($"{number} ->");
-for (int i = 1; i <= number; i++)
-{
-double squere = Math.Pow(i,3);
-Console.Write($"{squere}, ");
-}
+    Console.Write($"{number} ->");
+    for (int i = 1; i <= number; i++)
+    {
+        double squere = Math.Pow(i, 3);
+        Console.Write($"{squere}, ");
+    }
 }
 
 Console.WriteLine("Введите число: ");
